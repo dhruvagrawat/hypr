@@ -13,7 +13,7 @@ focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{pri
 iDIR="$HOME/.config/swaync/images"
 
 # swww transition config
-FPS=60
+FPS=75
 TYPE="wipe"
 DURATION=2
 BEZIER=".43,1.19,1,.4"
